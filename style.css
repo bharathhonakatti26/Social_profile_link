@@ -1,0 +1,104 @@
+@font-face {
+    font-family: InterBold;
+    src: url("assets/fonts/static/Inter-Bold.ttf");
+  } 
+  @font-face {
+    font-family: InterRegular;
+    src: url("assets/fonts/static/Inter-Regular.ttf");
+  } 
+  @font-face {
+    font-family: InterSemiBold;
+    src: url("assets/fonts/static/Inter-SemiBold.ttf");
+  } 
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #141414;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .socialprofil {
+    padding: 40px;
+    background-color: #1F1F1F;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+  }
+
+  img{
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+  }
+  .name{
+    font-family: InterBold;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-top: 7px;
+  }
+  .Country{
+    font-family: InterBold;
+    font-size: 10px;
+    color: #C4F82A;
+    margin-top: 5px;
+  }
+  .quote{
+    font-family: InterSemiBold ;
+    color: #C7C7C7;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .link a{
+    text-decoration: none;
+    color: white;
+    font-family: InterBold;
+    font-size: 10px;
+    text-decoration: none;
+    
+  }
+  .link_box{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .link {
+    width: 240px;
+    height: 40px;
+    background-color: #333333;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  a{
+    width: 240px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  a:hover{
+    cursor: pointer;
+    background-color: #C4F82A;
+    color: #141414;
+  }
